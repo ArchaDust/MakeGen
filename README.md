@@ -7,7 +7,7 @@ Makefile generator written in shitty C++
 
 Path: The path where you want to put your Makefile (generally inside a project folder)
 
-Name: The name of your program / lib
+Name: The name of your program / library
 
 Cc: The compiler you want to use (gcc, g++ or ar rcs (yes ar rcs is not a compiler))
 
@@ -29,7 +29,7 @@ Flags: -Wall -Wextra -Werror maybe?
 
 -Adapt to "./src" "./obj" "./include" kind of project organization
 
--Norme the $(SRCS) | $(HEADERS) lines to avoid going beyong 80 charaters on one line
+-Norme the $(SRCS) | $(HEADERS) lines to avoid going beyond 80 charaters on one line
 
 -Manage .hpp for C++ (Because I prefer .h)
 
