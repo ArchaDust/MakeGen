@@ -2,7 +2,7 @@
 Makefile generator written in shitty C++
 
 
-Usage: PATH, NAME, CC, FLAGS
+# Usage: PATH, NAME, CC, FLAGS
 
 
 Path: The path where you want to put your Makefile (generally inside a project folder)
@@ -14,7 +14,7 @@ Cc: The compiler you want to use (gcc, g++ or ar rcs (yes ar rcs is not a compil
 Flags: -Wall -Wextra -Werror maybe?
 
 
-What it will do:
+# What it will do:
 
 -Generate a Makefile inside the project folder
 
@@ -25,7 +25,7 @@ What it will do:
 -Automatically add rules: all, $(NAME), clean, fclean, re and "normy", which will run the "Norminette" with arguments $(SRCS) & $(HEADERS)
 
 
-What it won't do (for now):
+# What it won't do (for now):
 
 -Adapt to "./src" "./obj" "./include" kind of project organization
 
